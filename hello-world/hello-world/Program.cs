@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 
 namespace hello_world
 {
@@ -10,9 +7,9 @@ namespace hello_world
     {
         static void Main(string[] args)
         {
-            //hola soy mindundi y he acabo de hacer un fork de un proyecto ahora estoy en mi branch and friature 
+            
             Console.WriteLine("Hello World");
-            Console.ReadKey();
+            Thread.Sleep(2000);
         }
     }
 }
