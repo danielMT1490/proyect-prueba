@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 
 namespace hello_world
 {
@@ -10,8 +7,9 @@ namespace hello_world
     {
         static void Main(string[] args)
         {
+            
             Console.WriteLine("Hello World");
-            Console.ReadKey();
+            Thread.Sleep(2000);
         }
     }
 }
